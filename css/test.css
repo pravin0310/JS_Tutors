@@ -1,0 +1,81 @@
+.box{
+    border: 67px solid red;
+    width: 99px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-left: 199px;
+}
+#button{
+    /* display: block; */
+    color: white;
+    background-color: crimson;
+    border: 1px;
+    width: 50px;
+    margin: 20px;
+    margin-top:20px;
+    margin-left: 458px;
+    /* padding-left: 20px; */
+}
+.popup-wrapper{
+    /* display: none; */
+    background-color: rgba(0,0,0,0.5);
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+}
+.popup{
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding:20px;
+    margin: 10% auto;
+    position: relative;
+    max-width: 300px;
+}
+.popup-close{
+    position: absolute;
+    top:5px;
+    right: 8px;
+    cursor: pointer;
+}
+.success{
+    background-color: darkolivegreen;
+    border :2px solid limegreen;
+}
+.error{
+    background-color: darkred;
+    border: 2px solid crimson;
+}
+
+body{
+    background-color: darkslateblue;
+    max-width: 450px;
+    margin-left: 30%;
+}
+.todos li{
+    background-color: #423a6f;
+}
+input[type=text],
+input[type=text]:focus{
+    color:#fff;
+    background:rgba(0,0,0,0.2);
+    border: none;
+}
+.delete{
+    cursor: pointer;
+}
+.clock{
+  
+     font-size: 4em;
+     border:20px auto;
+     color:yellow;
+     font-family: arial;
+}
+.clock span{
+    padding: 20px;
+    background:#444;
+}
